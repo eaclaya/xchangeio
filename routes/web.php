@@ -30,7 +30,7 @@ use Illuminate\Support\Facades\Hash;
 */
 
 Route::fallback(function (Request $request) {
-    dd(Account::all());
+    dd($_SERVER);
     $shop = Utils::sanitizeShopDomain($request->query('shop'));
     $host = $request->query('host');
     $sessionStorage = new DbSessionStorage();
