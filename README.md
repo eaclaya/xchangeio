@@ -1,4 +1,6 @@
-# Shopify PHP embedded app
+# Laravel embedded app
+
+Collect information from the merchant and save it to the returns database
 
 ### Environment variables
 
