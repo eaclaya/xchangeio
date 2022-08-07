@@ -1,6 +1,4 @@
-# Example Shopify PHP app
-
-## Starting the App
+# Shopify PHP embedded app
 
 ### Environment variables
 
